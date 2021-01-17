@@ -1,8 +1,8 @@
 package cn.edu.hcnu.client;
 
-//èŠå¤©å®¤å®¢æˆ·ç«¯
+//ÁÄÌìÊÒ¿Í»§¶Ë
 public class Client {
-	//ä¸»æ–¹æ³•:å¯åŠ¨ç™»å½•çº¿ç¨‹
+	//Ö÷·½·¨:Æô¶¯µÇÂ¼Ïß³Ì
 	public static void main(String[] args) throws Exception {
 		Thread login = new LoginThread();
 		login.start();

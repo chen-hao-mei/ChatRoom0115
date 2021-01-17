@@ -22,7 +22,7 @@ public class MD5 {
     }
 
     public static void main(String[] args) throws UnsupportedEncodingException, NoSuchAlgorithmException {
-        //System.out.println(encoderByMd5("chm1234"));        显示加密后的密码
+        //System.out.println(encoderByMd5("chm1234"));        //显示加密后的密码
         System.out.println(checkpassword("chm1234","JHnX4RgW8xctqfDyK6CxVQ=="));
     }
     /**判断用户密码是否正确
